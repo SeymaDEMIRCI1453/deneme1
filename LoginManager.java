@@ -1,8 +1,8 @@
 /*
- * Bu dosyada yer alan kaynak kodlarının, Fikir ve Sanat Eserleri Kanunu ve diğer ilgili mevzuattan doğan tüm fikri, 
- * sınai ve ticari hakları tescil edilmesi koşuluna bağlı olmaksızın TÜBİTAK'a aittir. Bu hakların ihlal edilmesi 
- * halinde, ihlalden kaynaklanan her türlü idari, hukuki, cezai ve mali sorumluluk ihlal eden tarafa ait olup, 
- * TÜBİTAK'ın ihlalden kaynaklı hukuksal bir yaptırımla karşı karşıya kalması durumunda tüm yasal hakları saklıdır.
+ * Bu dosyada yer alan kaynak kodlarÃ½nÃ½n, Fikir ve Sanat Eserleri Kanunu ve diÃ°er ilgili mevzuattan doÃ°an tÃ¼m fikri, 
+ * sÃ½nai ve ticari haklarÃ½ tescil edilmesi koÃ¾uluna baÃ°lÃ½ olmaksÃ½zÃ½n TÃœBÃTAK'a aittir.Â Bu haklarÃ½n ihlal edilmesi 
+ * halinde, ihlalden kaynaklanan her tÃ¼rlÃ¼ idari, hukuki, cezai ve mali sorumluluk ihlal eden tarafa ait olup, 
+ * TÃœBÃTAK'Ã½n ihlalden kaynaklÃ½ hukuksal bir yaptÃ½rÃ½mla karÃ¾Ã½ karÃ¾Ã½ya kalmasÃ½ durumunda tÃ¼m yasal haklarÃ½ saklÃ½dÃ½r.
  */
 package tr.gov.tubitak.uekae.g222.sydgm.common.infrastructure.service;
 
@@ -371,10 +371,13 @@ public class LoginManager implements LoginManagerRemote {
 	}
 	
 	/*
-	 * Uzun süren istemci kaynaklı işlemlerde session'ı açık tutmak için kullanılmaktadır, silmeyiniz.
+	 * Uzun sÃ¼ren istemci kaynaklÃ½ iÃ¾lemlerde session'Ã½ aÃ§Ã½k tutmak iÃ§in kullanÃ½lmaktadÃ½r, silmeyiniz.
 	 */
 	@Override
 	public void handleClientHeartBeat() 
 	{
+		/*
+		 * Uzun sÃ¼ren istemci kaynaklÄ± iÅŸlemlerde session'Ä± aÃ§Ä±k tutmak iÃ§in kullanÄ±lmaktadÄ±r, silmeyiniz.
+		 */
 	}
 }
